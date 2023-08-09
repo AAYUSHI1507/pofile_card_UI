@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-bg-color: #2874f0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  height: 430px;
+  width: 400px;
+  border-radius: 40px;
+  box-shadow: 1px 1px 9px;
+  flex-direction: column;
+}
+.sec1 {
+  background-color: #3b79db;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 39px;
+  margin-top: 0px;
+  height: 154px;
+}
+
+img {
+  border-radius: 58px;
+  margin-bottom: -15px;
+  border: 3px solid white;
+  margin-left: 2px;
+}
+.imgsec {
+  margin-bottom: -43px;
+  background-color: #3864ab;
+  border-radius: 61px;
+  height: 130px;
+  width: 129px;
+}
