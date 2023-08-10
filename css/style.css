@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +21,7 @@
   flex-direction: column;
 }
 .sec1 {
-  background-color: #3b79db;
+  background: #3e7cda;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -29,16 +30,28 @@
   height: 154px;
 }
 
-img {
-  border-radius: 58px;
-  margin-bottom: -15px;
-  border: 3px solid white;
-  margin-left: 2px;
+.sec1 img {
+  margin-bottom: -44px;
+  width: 132px;
+  height: 126px;
+  border-radius: 9999px;
+  border: 2px rgba(37.54, 78.84, 225.25, 0.2) solid;
 }
-.imgsec {
+/* .imgsec {
   margin-bottom: -43px;
   background-color: #3864ab;
   border-radius: 61px;
   height: 130px;
   width: 129px;
+} */
+
+.sec2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: calc(430px - 154px);
+}
+
+.foll{
+    margin-top: 20px;
 }
