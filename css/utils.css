@@ -70,3 +70,11 @@
     margin-top: 7px;
     margin-left: 25px;
   }
+
+.r1:hover, .r2:hover{
+  background-color: #263d5f;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  transition: border-radius 0.5s ease-in-out ;
+}
