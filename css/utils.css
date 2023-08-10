@@ -72,11 +72,11 @@
   }
 
 .r1:hover, .r2:hover{
-  background-color: #263d5f;
+  background-color: #c7d3e6;
+  color: #161515 ;
   width: 30px;
-  border-radius: 50%;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  transition: border-radius 0.5s ease-in-out ;
-  transition: width 1s ease-in-out ;
+  /* transition: background-color  0.3s ease-in-out;
+  transition: border-radius 0.5s ease-in-out ; */
+  transition: all 1s ease-in-out ;
 }
